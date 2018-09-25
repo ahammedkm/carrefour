@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i');
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-heading { color:#fff; font-size:23px;}
+.panel{
+    box-shadow:none !important;
+}
+.panel h2{ 
+    color: rgba(65,65,65,255);
+    font-size: 24px;
+    margin: 6px 10px 6px 13px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+}
+.panel p { 
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 30px;
+    height: 19px;
+    margin-left: 5px;
+}
+.login-form .form-control {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+.main-div {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 19px 47px 26px 47px;
+    /* opacity: 0.6; */
+    border: 2px solid #d4d4d4;
+    margin-top: 9%;
+    
+}
+
+.login-form .form-group {
+    margin-top: 32px;
+    position:relative;
+}
+.login-form{ text-align:center;}
+.forgot a {
+    color: #688BBF;
+    font-size: 14px;
+    text-decoration: underline;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin-right: 1px;
+    margin-top: 5px;
+    float:right;
+}
+.login-form  .btn.btn-primary {
+    background: #004DA5;
+    border-color: #004DA5;
+    color: #ffffff;
+    font-size: 22px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+}
+.forgot {
+  text-align: left; 
+  margin-bottom:20px;
+}
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+.login-form .btn.btn-primary.reset {
+  background: #ff9900 none repeat scroll 0 0;
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: #444444; font-size: 13px;text-decoration: none;}
+
+.container{
+    
+    background-repeat: no-repeat;
+    max-width: 1000px;
+    padding-bottom: 70px;
+    background: #fff;
+}
+label{
+    display: inline-block;
+    margin-bottom: 0;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin-left: 5px;
+    color: #777777;
+}
+.form-control:focus {
+    border-color: #004DA5;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0,123,255,.25);
+  }
+
+  span {
+    padding:10px;
+    pointer-events: none;
+    position:absolute;
+    left:0;
+    top:4px;
+    transition: 0.2s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    opacity:0.5;
+    font-size: 14px;
+    color: rgba(65,65,65,255);
+  }
+  .form-group input:focus + span, .form-group input:not(:placeholder-shown) + span {
+    opacity:1;
+    transform: scale(0.75) translateY(-100%) translateX(-30px);
+    font-size: 18px;
+    left: 4px;
+    top: 0px;
+    font-style: italic;
+  }
+  .header a{
+    left: 85px;position: relative;top: 29px;
+  }
+
+  
+.search-container {
+    padding-right: 20%;
+    float: right;
+    margin-top: 50px;
+}
+.search {
+    border-radius: 5px;
+    border: none;
+    width: 50px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    float: right;
+    background: #EFF7FF;
+    height: 36px;
+    outline: none;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    padding-left: 40px;
+}
+.search:focus {
+    width: 200px;
+}
+.search-container span{
+    background: url(../images/search.png)no-repeat;
+    position: relative;
+    left: 36px;
+    top: 20px;
+}
+
+hr{
+    width: 100%;
+    margin-top: 70px !important;
+    margin-bottom: 70px !important;
+}
+.title{
+    padding-top: 15px;
+    font-family: "Open Sans";
+    margin-bottom: 0px;
+}
+.price{
+    font-size: 18px;
+    font-family: "Open Sans";
+}
+.invalid-feedback{
+    display: block;
+    position: absolute;
+    bottom: 52px;
+    left: 180px;
+}
+.form-control.is-invalid{
+    border-color: #dc3545;
+}
+
+.invalid-feedback div{
+float: right;
+background: #FFEFF1;
+height: 20px;
+line-height: 20px;
+color:#dc3545;
+font-size: 12px;
+}
+
+.is-invalid input + span{
+    top:25px;
+}
